@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<meta name="description" content="RuFlow privacy policy draft: local-first desktop storage, optional online services, data retention, and user controls.">
+<title>RuFlow Privacy Policy · Draft</title>
+<style>
+:root{color-scheme:dark;--bg:#080e1c;--panel:#101b2f;--text:#edf3ff;--muted:#bac8e2;--cyan:#78e8f2;--purple:#c2b1ff;--line:#35445c}
+*{box-sizing:border-box}html{scroll-padding-top:1rem}body{margin:0;background:radial-gradient(ellipse at 5% 0%,#123343 0,transparent 42rem),radial-gradient(ellipse at 100% 5%,#231d43 0,transparent 40rem),var(--bg);color:var(--text);font:1rem/1.75 system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--cyan);text-underline-offset:.22em;overflow-wrap:anywhere}a:hover{color:#fff}a:focus-visible,summary:focus-visible{outline:3px solid #f6df88;outline-offset:5px;border-radius:3px}.skip{position:absolute;top:-8rem;left:1rem;padding:.7rem 1rem;background:#fff;color:#081020;z-index:5}.skip:focus{top:.5rem}
+.wrap{max-width:1200px;margin:auto;padding:0 2rem}header{padding:2rem 0;border-bottom:1px solid var(--line)}.top{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}.brand{display:flex;gap:.8rem;align-items:center;font-size:1.35rem;font-weight:750;letter-spacing:-.03em}.mark{display:grid;place-items:center;width:44px;height:44px;border-radius:13px;background:linear-gradient(135deg,#60e3ef,#a18bff);color:#101426;font-size:1.45rem}.top small{color:var(--muted)}.hero{padding:4rem 0 2rem;max-width:900px}.eyebrow{text-transform:uppercase;letter-spacing:.15em;font-size:.78rem;font-weight:750;color:var(--cyan)}h1{font-size:clamp(2.4rem,6vw,4.4rem);line-height:1.1;letter-spacing:-.045em;margin:.6rem 0 1.2rem}.intro{font-size:1.15rem;max-width:710px;color:var(--muted)}.badge{display:inline-block;border:1px solid #8d7dbf;background:#25233e;color:#e4daff;border-radius:999px;padding:.2rem .8rem;font-size:.8rem;font-weight:650}.review{padding:1rem 1.3rem;border:1px solid #a58d4c;border-left:4px solid #f6df88;background:#242131;border-radius:10px;color:#f4e7bc;margin:1.6rem 0}.review p{margin:0}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:1.5rem 0 2.8rem}.fact{border:1px solid var(--line);border-radius:14px;padding:1.1rem 1.2rem;background:#101b2fcc}.fact strong{display:block;color:var(--cyan);font-size:.78rem;text-transform:uppercase;letter-spacing:.08em}.fact span{display:block;margin-top:.35rem;font-weight:600}
+.layout{display:grid;grid-template-columns:245px minmax(0,1fr);gap:3rem;padding-bottom:4rem}aside{align-self:start;position:sticky;top:1.5rem}nav{border:1px solid var(--line);background:var(--panel);border-radius:14px;padding:1rem}nav h2{font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;margin:0 0 .6rem;color:var(--purple)}nav a{display:block;font-size:.88rem;padding:.4rem 0;color:var(--muted);text-decoration:none;line-height:1.4}nav a:hover{text-decoration:underline;color:var(--cyan)}article{min-width:0}article>p:first-child{color:var(--purple);font-size:.9rem}article h2{font-size:1.6rem;letter-spacing:-.025em;line-height:1.3;margin:2.7rem 0 1rem;padding-top:1.2rem;border-top:1px solid var(--line)}article p{margin:1rem 0}article strong{color:#fff}article code{font-size:.88em;background:#192740;border-radius:4px;padding:.1rem .3rem;overflow-wrap:anywhere}footer{padding:2rem 0;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}.footer-row{display:flex;justify-content:space-between;gap:1.5rem;flex-wrap:wrap}.status{color:var(--purple);font-weight:700}
+@media(max-width:850px){.layout{grid-template-columns:1fr;gap:1rem}aside{position:static}nav a{padding:.5rem 0}.hero{padding-top:2.5rem}.facts{gap:.6rem}}@media(max-width:520px){.wrap{padding:0 1.1rem}.facts{grid-template-columns:1fr}.hero{padding-top:2rem}.top small{font-size:.8rem}.intro{font-size:1rem}article h2{font-size:1.35rem}.fact{padding:.8rem 1rem}}
+@media print{body{background:#fff;color:#111}.wrap{max-width:none;padding:0}header,aside,.facts,.review,.skip{display:none}.hero{padding:0}.layout{display:block}a,.status,article strong,article>p:first-child{color:#111}article h2{break-after:avoid}.badge{color:#111;border-color:#555;background:none}footer{font-size:9pt}article code{background:none}.intro{color:#333}}
+</style>
+</head>
+<body>
+<a class="skip" href="#policy">Skip to privacy policy</a>
+<header><div class="wrap top"><div class="brand"><span class="mark" aria-hidden="true">R</span><span>RuFlow</span></div><small>Privacy &amp; transparency · Windows Desktop Application</small></div></header>
+<div class="wrap">
+<div class="hero"><p class="eyebrow">Your information. Clear explanations.</p><h1>Privacy Policy</h1><span class="badge">Pre-Publication Draft · Effective Date Pending Approval</span><p class="intro">What RuFlow processes, where information goes, and the choices and controls available on your PC.</p></div>
+<div class="review" role="note"><p><strong>Not yet effective.</strong> This pre-publication privacy draft awaits final owner approval. Its effective date will be set only after final approval.</p></div>
+<div class="facts" aria-label="Privacy overview"><div class="fact"><strong>Local storage</strong><span>Chats and files can remain on your PC</span></div><div class="fact"><strong>Optional services</strong><span>Some features transmit selected content</span></div><div class="fact"><strong>Your choices</strong><span>Review, disconnect and delete separately</span></div></div>
+<div class="layout"><aside><nav aria-label="Policy contents"><h2>On this page</h2><a href="#1-local-ai-processing-chat-storage">1. Local AI Processing &amp; Chat Storage</a><a href="#2-document-voice-image-processing">2. Document, Voice &amp; Image Processing</a><a href="#3-diagnostic-logging-local-error-reporting">3. Diagnostic Logging &amp; Local Error Reporting</a><a href="#4-optional-external-search-web-providers">4. Optional External Search &amp; Web Providers</a><a href="#5-per-provider-consent-fallbacks-revocation">5. Per-Provider Consent, Fallbacks &amp; Revocation</a><a href="#6-canva-integration-packaged-status-api-terms">6. Canva Integration (Packaged Status &amp; API Terms)</a><a href="#7-deleting-local-data-in-app-controls-vs-manual-action">7. Deleting Local Data: In-App Controls vs. Manual Action</a><a href="#8-data-retention-current-practice-proposed-rules-support-mailbox">8. Data Retention: Current Practice, Proposed Rules &amp; Support Mailbox</a><a href="#9-privacy-contact-your-rights">9. Privacy Contact &amp; Your Rights</a></nav></aside><main id="policy" tabindex="-1"><article aria-label="RuFlow privacy policy"><p><strong>Effective Date:</strong> To be set upon final owner approval <em>(draft — not yet effective)</em><br />
+<strong>Application:</strong> RuFlow (Windows Desktop AI Workspace)<br />
+<strong>Privacy &amp; Support Contact:</strong> <a href="mailto:ruflow.support@gmail.com">ruflow.support@gmail.com</a></p>
+
+<blockquote>
+  <p><strong>Summary:</strong> RuFlow is built as a local-first Windows desktop AI workspace. Online features remain off by default and transmit information only when you enable them and grant required consent.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="1-local-ai-processing-chat-storage">1. Local AI Processing &amp; Chat Storage</h2>
+
+<ul>
+<li><strong>Local Model Inference:</strong> Chat conversations processed with your local Ollama installation run on your own Windows PC and are not transmitted to external RuFlow servers. The packaged Windows desktop application includes no cloud AI model SDKs (such as OpenAI, Anthropic, or Google Gemini) and does not transmit local chats to external language-model providers.</li>
+<li><strong>Local Windows Profile Storage:</strong> In desktop installations, RuFlow stores your conversations, workspace settings, documents, and diagnostic logs inside your Windows user profile's local application data folder rather than on developer-operated cloud servers. Access across Windows accounts on the same computer relies on your Windows user-profile permissions, and local application data persists across updates or uninstall until deleted manually. Local Ollama AI models remain in your local Ollama storage directory separately from RuFlow's installer.</li>
+<li><strong>No Built-In Telemetry or Ad Trackers:</strong> RuFlow includes no advertising SDKs, analytics trackers, usage telemetry, or external web-font downloads.</li>
+</ul>
+
+<hr />
+
+<h2 id="2-document-voice-image-processing">2. Document, Voice &amp; Image Processing</h2>
+
+<ul>
+<li><strong>Documents, Book Libraries &amp; Presentations:</strong> Text extraction for supported attachments (including PDF, Word, Excel, PowerPoint, CSV, plain text, and image file metadata), local textbook library search, and local presentation generation run on your Windows PC. Document content leaves your device only if you send it through an explicit consented online workflow.</li>
+<li><strong>Voice Features &amp; Audio Recordings:</strong> Live online voice readout and browser voice chat controls are <strong>disabled and omitted from the packaged Windows desktop application</strong>. On the Sing page, voice takes you record or upload are stored locally on your PC in WAV format and can be played, downloaded, or cleared inside the app; however, voice-model training and singing-cover generation depend on external local audio engines not bundled in the core Windows package. If a YouTube link is submitted for song audio extraction where an external singing engine is configured, RuFlow requires explicit consent before contacting YouTube.</li>
+<li><strong>Image Generation &amp; Safety Status:</strong> <strong>AI image generation, image editing, and generated-image reuse or export are disabled in the packaged Windows desktop release</strong>, and local visual moderation AI models are not bundled or running in the core package. No image-generation prompts or generated images are transmitted to external cloud image services.</li>
+</ul>
+
+<hr />
+
+<h2 id="3-diagnostic-logging-local-error-reporting">3. Diagnostic Logging &amp; Local Error Reporting</h2>
+
+<ul>
+<li><strong>Local Operational Logs:</strong> RuFlow writes rotating diagnostic logs locally inside your Windows user profile log folder for troubleshooting.</li>
+<li><strong>Built-In Secret &amp; Query Masking:</strong> Before writing diagnostic logs or search error summaries, RuFlow automatically masks configured credentials, bearer tokens, web-link user credentials, query parameters, raw HTTP error bodies, and raw search queries.</li>
+<li><strong>Zero Automatic Crash Telemetry:</strong> RuFlow never automatically sends logs, crash reports, analytics, or workspace content to the developer.</li>
+<li><strong>Local AI Concern Report Drafts:</strong> Drafts created through <strong>Report AI Content</strong> are saved strictly locally on your PC. Nothing is transmitted externally unless you manually export a report file and email it to support.</li>
+</ul>
+
+<hr />
+
+<h2 id="4-optional-external-search-web-providers">4. Optional External Search &amp; Web Providers</h2>
+
+<p>RuFlow keeps <strong>Internet Mode OFF by default</strong>. External requests occur only when you enable or trigger an online feature and approve the applicable prompt.</p>
+
+<p>When triggered and consented by you, external data handling differs between general company privacy policies and provider API terms:</p>
+
+<ul>
+<li><strong>Tavily:</strong> Consented web search transmits your search query and API key. Governed by Tavily's Terms of Service, Privacy Policy, and DPA (<strong>AlphaAI Technologies Inc.</strong>, US). Offers a <strong>Zero Data Retention (ZDR)</strong> / Zero Query Retention option in eligible account settings (under which queries and results are not stored after completion) and an <strong>EU endpoint</strong> (API gateway in Germany and search index in France; account, billing, and usage records remain on US systems). Where ZDR is not enabled, Tavily's Platform Terms permit processing and retaining Customer Input to provide and improve services (including AI/ML models), and <strong>exact non-ZDR query-log retention days are not published publicly</strong>.</li>
+<li><strong>Brave Search API:</strong> Consented web search transmits your query and requested result count. Governed by <strong>Brave Search API Terms of Use</strong> and the <strong>Search API Privacy Notice</strong> <em>(distinct from Brave's consumer browser and Brave Leo AI privacy policies)</em>. Requests are processed on <strong>AWS infrastructure in the United States</strong>. Brave retains Search API query logs for up to <strong>90 days</strong> for billing and troubleshooting (with Enterprise ZDR options available) and states that no individual user or device identifiers are collected. Standard Search API Terms prohibit API customers from using search results to train AI models unless authorized under specialized data plans.</li>
+<li><strong>Google Custom Search JSON API:</strong> Consented web search transmits your query. <strong>Deprecation Notice:</strong> Closed to new customers on <strong>January 20, 2026</strong>, and scheduled for discontinuation/sunset on <strong>January 1, 2027</strong>. Governed by the <strong>Google APIs Terms of Service</strong> (which permit API quality monitoring and security/service processing) together with the general <strong>Google Privacy Policy</strong> on global Google servers. <em>Qualification:</em> Published Google timeframes such as 9-month IP anonymization and 18-month cookie anonymization describe <strong>advertising server logs</strong> under Google's general privacy policy rather than an API-specific query-log retention commitment; <strong>exact Custom Search JSON API server-log retention days and regional pinning options are not published publicly</strong>.</li>
+<li><strong>Serper (<code>serper.dev</code>):</strong> Consented web search transmits your query. Governed by <strong>Serper Terms of Service</strong> and <strong>Privacy Policy</strong>. Serper queries Google sources in real time, explicitly states it <strong>does not cache search results</strong>, does not indicate user API queries are used for AI model training, and retains account and billing records while an account is active or required by law. <em>Unavailable details:</em> exact server hosting regions and exact ephemeral API query-log purge periods are <strong>not published publicly</strong>.</li>
+<li><strong>DuckDuckGo:</strong> Chosen or fallback search queries use an open-source third-party library connecting to public DuckDuckGo endpoints rather than an official enterprise developer API or DPA. Under DuckDuckGo's general <strong>Privacy Policy</strong>, DuckDuckGo states it does not save or share search or browsing history tied to IP addresses or unique identifiers, retains only anonymous aggregate statistics, and proxies queries to search partners (including Microsoft Bing) without sharing user IPs or personal data. <em>Unavailable details:</em> exact edge datacenter locations and ephemeral CDN log rotation windows are <strong>not published publicly</strong>.</li>
+<li><strong>Microsoft Bing Web Fallback:</strong> Fallback search queries Bing's public web search page rather than an enterprise Azure Bing Search API agreement (Microsoft DPA / Online Services Terms). Governed by Microsoft's general consumer <strong>Privacy Statement</strong>, under which Microsoft states Bing search queries are separated from account identity and full IP addresses are deleted after <strong>6 months</strong> <em>(no enterprise API ZDR SLA applies to unauthenticated web fallback)</em>.</li>
+<li><strong>Visited Public Websites:</strong> Opening a pasted web address or fetching full article pages from search results sends the requested web address, your IP address, and browser user-agent metadata directly to the destination website operator under that site's own privacy policy and hosting regions, which vary per domain and cannot be pre-verified.</li>
+<li><strong>YouTube:</strong> Submitting a YouTube video or song link sends the requested video identifier to YouTube under <strong>YouTube Terms of Service</strong> and the general <strong>Google Privacy Policy</strong> across global Google servers. <em>Qualification:</em> Google's general 9-month IP / 18-month cookie anonymization rule covers advertising server logs rather than providing a specific retention guarantee for unauthenticated YouTube metadata, transcript, or media requests; exact retention periods for those requests are <strong>not published publicly</strong>.</li>
+<li><strong>Ollama Model Registry &amp; CDN:</strong> Pulling optional local AI models sends requested model identifiers and standard HTTP request metadata (including IP address; primary <strong>United States</strong> infrastructure and global Cloudflare CDN) under the <strong>Ollama Privacy Policy</strong>, without transmitting your local chat messages. <em>Distinction:</em> Ollama's published <strong>Zero Data Retention and zero-training commitments apply to Ollama Cloud inference</strong> rather than local model downloads; exact registry and CDN HTTP access-log purge days are <strong>not published publicly</strong>.</li>
+<li><strong>GitHub (Optional Standalone Runtime Download &amp; Privacy Website Host):</strong> In standalone desktop installers <em>(disabled in Microsoft Store builds)</em>, explicitly choosing to download Ollama sends installer download requests to GitHub Releases. Viewing a privacy webpage hosted on GitHub Pages also falls under the <strong>GitHub General Privacy Statement</strong>; GitHub Pages documentation states that visitor <strong>IP addresses are logged and stored for security purposes</strong> even when signed out. Exact HTTP server log retention periods are <strong>not published publicly</strong>.</li>
+<li><strong>Gmail Support Mailbox:</strong> Voluntarily emailing <a href="mailto:ruflow.support@gmail.com">ruflow.support@gmail.com</a> transmits your email message and any attachments through Google's mail servers under <strong>Google Terms of Service &amp; Privacy Policy</strong>. Support mailbox retention is <strong>separately administered by the developer</strong>.</li>
+</ul>
+
+<hr />
+
+<h2 id="5-per-provider-consent-fallbacks-revocation">5. Per-Provider Consent, Fallbacks &amp; Revocation</h2>
+
+<ul>
+<li><strong>Separate Consent per Feature and Provider:</strong> Before transmitting web search queries, pasted website links, YouTube links, topic news lookups, deep research queries, or Research Sheets queries externally, RuFlow requests explicit permission keyed separately by <strong>both feature and external provider</strong>. Local Ollama conversations and local file processing never prompt for external consent.</li>
+<li><strong>Allow Once, Allow &amp; Remember, or Decline:</strong> On first use, you choose <strong>Allow Once</strong>, <strong>Allow &amp; Remember</strong>, or skip external lookup altogether.</li>
+<li><strong>Separate Consent for Full Webpage Reading:</strong> Approving a search engine provider for search result snippets never authorizes fetching full article webpages returned in search results; full-page fetching requires separate explicit approval.</li>
+<li><strong>Mandatory Fresh Consent for Fallback Providers:</strong> Consent remembered for a primary search engine never applies to fallback providers (such as DuckDuckGo or Bing fallback search). Fallback providers always require <strong>fresh one-time permission</strong> and are not persistently remembered.</li>
+<li><strong>Revocation Controls:</strong> You can revoke remembered permissions individually or click <strong>Revoke All External Consents</strong> anytime under <strong>Settings -> Privacy, Consent &amp; Cleanup</strong> and in Research Sheets controls.</li>
+</ul>
+
+<hr />
+
+<h2 id="6-canva-integration-packaged-status-api-terms">6. Canva Integration (Packaged Status &amp; API Terms)</h2>
+
+<ul>
+<li><strong>Packaged Release Status:</strong> Canva integration is optional, switched off by default, and <strong>live Canva connections cannot execute in the standard core Windows desktop package</strong> because Canva's external connection client library is omitted from the core installer.</li>
+<li><strong>Authentication &amp; Data Protection <em>(When Separately Provisioned)</em>:</strong> Where optional Canva support is separately installed and enabled by you, sign-in uses OAuth with PKCE over a temporary local loopback callback on your PC, requesting read permissions by default (profile, design metadata, design content, folders, and assets) and write access only when requested. Authorization tokens are stored encrypted locally on your Windows account via Windows Data Protection (DPAPI) and Windows Credential Manager, and clicking <strong>Disconnect Canva</strong> clears stored local encrypted tokens and session data.</li>
+<li><strong>Canva Governance &amp; Limits:</strong> API calls are governed by <strong>Canva's API and App Developer Terms</strong> (Schedule 1) and DPA separately from Canva's general consumer <strong>Privacy Policy</strong>. Developer Terms limit retention of API inputs/outputs strictly to providing, maintaining, and securing the API service and <strong>prohibit using Canva API content or outputs to train AI models</strong>; programmatic export download links expire after <strong>24 hours</strong>; enterprise accounts support regional data residency options (such as US or EU); exact consumer API audit-log retention periods are <strong>not published publicly</strong>.</li>
+</ul>
+
+<hr />
+
+<h2 id="7-deleting-local-data-in-app-controls-vs-manual-action">7. Deleting Local Data: In-App Controls vs. Manual Action</h2>
+
+<p>Because RuFlow stores your workspace on your own computer, some categories can be deleted inside RuFlow while others require manual action in Windows or Ollama:</p>
+
+<h3 id="data-you-can-delete-using-ruflows-ui">Data You Can Delete Using RuFlow's UI</h3>
+
+<ul>
+<li><strong>Conversations &amp; Messages:</strong> Delete an entire conversation from the sidebar or individual prompt/reply pairs inside chat <em>(deletes local database history only and never deletes files on disk)</em>.</li>
+<li><strong>Favorites &amp; Staged Chat Inputs:</strong> Remove starred favorites or click <strong>Clear</strong> on pending attachments before sending.</li>
+<li><strong>Unreferenced Managed Chat Attachment Copies:</strong> In <strong>Settings -> Privacy, Consent &amp; Cleanup -> Orphan Chat Attachment Cleanup</strong>, run a read-only scan of managed copies no longer linked to any conversation, inspect the preview list, and confirm deletion explicitly. Personal uploaded folders, custom files, shared attachments still linked to another chat, and symbolic links are never treated as orphans or deleted automatically.</li>
+<li><strong>Remembered External Provider Approvals:</strong> Revoke individual permissions or click <strong>Revoke All External Consents</strong> in <strong>Settings -> Privacy, Consent &amp; Cleanup</strong> (and Research Sheets controls).</li>
+<li><strong>Research Sheets &amp; Rows:</strong> Delete individual Research Sheets or delete table rows directly inside the Research Sheets page.</li>
+<li><strong>Saved AI Concern Report Drafts:</strong> Delete individual locally saved drafts with confirmation inside <strong>Report AI Content</strong>.</li>
+<li><strong>Saved Sing Voice Recordings:</strong> Delete individual saved voice takes with <strong>Delete recording</strong> on the Sing page.</li>
+<li><strong>Active Video Job Cards:</strong> Dismiss queued or completed video job entries from the active session view.</li>
+</ul>
+
+<h3 id="data-requiring-manual-user-action-outside-ruflow">Data Requiring Manual User Action Outside RuFlow</h3>
+
+<ul>
+<li><strong>Diagnostic &amp; Operational Log Files:</strong> No UI button deletes log files; remove them manually from your Windows user profile's RuFlow <code>logs</code> folder if desired.</li>
+<li><strong>Uploaded Documents &amp; Saved Exports:</strong> Files in RuFlow's uploads folder and documents/presentations exported to your computer remain on disk until deleted manually in Windows Explorer.</li>
+<li><strong>Locally Installed Ollama AI Models:</strong> Remove or uninstall downloaded AI models directly through Ollama's own commands or model storage tools.</li>
+<li><strong>Application Settings, Knowledge Indexes &amp; Residual Workspace Folders:</strong> Removing all preferences, local textbook databases, task history, and residual profile files requires manually deleting your RuFlow folder under your Windows user profile's local application data directory <em>(uninstalling or updating RuFlow does not automatically delete external local user data)</em>.</li>
+</ul>
+
+<hr />
+
+<h2 id="8-data-retention-current-practice-proposed-rules-support-mailbox">8. Data Retention: Current Practice, Proposed Rules &amp; Support Mailbox</h2>
+
+<ul>
+<li><strong>Current Application Behavior:</strong> <strong>No automatic time-based retention deletion or background pruning is active in RuFlow today.</strong> Local chats, logs, uploaded documents, settings, and temporary local AI concern drafts stay on your PC until removed via UI controls or manually by you.</li>
+<li><strong>Proposed Application Retention Targets <em>(Not Yet Implemented or Active)</em>:</strong>
+<ul>
+<li><strong>Local Diagnostic Logs:</strong> Proposed maximum retention <strong>30 days</strong>.</li>
+<li><strong>Local Temporary AI Concern Report Drafts:</strong> Proposed maximum retention <strong>90 days</strong> — strictly <strong>excluding</strong> documents you have explicitly saved or exported.</li>
+<li><strong>User Chats, Saved/Exported Documents &amp; Installed Models:</strong> Remain under your control indefinitely with <strong>no automatic deletion</strong>.</li>
+</ul></li>
+<li><strong>Support Mailbox Retention (<code>ruflow.support@gmail.com</code>) — Separately Administered by the Developer:</strong> Support emails and attached reports reside in the developer's Gmail support mailbox rather than inside the RuFlow application, so retention and deletion there are <strong>separately administered by the developer</strong> under Google mail terms <em>(with mailbox access restricted to the application owner initially)</em>. Under proposed administrative policy, closed support threads are targeted for manual review or deletion up to <strong>180 days after issue closure</strong>, subject to applicable legal obligations.</li>
+</ul>
+
+<hr />
+
+<h2 id="9-privacy-contact-your-rights">9. Privacy Contact &amp; Your Rights</h2>
+
+<ul>
+<li><strong>Privacy &amp; Support Contact:</strong> <a href="mailto:ruflow.support@gmail.com">ruflow.support@gmail.com</a></li>
+<li><strong>Requests &amp; Assistance:</strong> Contact <a href="mailto:ruflow.support@gmail.com">ruflow.support@gmail.com</a> for privacy inquiries, clarification on external integrations, or requests to close or remove past support correspondence <em>(subject to applicable legal retention requirements)</em>. You control deletion of all local RuFlow data stored on your Windows PC.</li>
+</ul>
+</article></main></div>
+</div>
+<footer><div class="wrap footer-row"><div>RuFlow · Windows Desktop Application<br>Support &amp; privacy: <a href="mailto:ruflow.support@gmail.com">ruflow.support@gmail.com</a></div><div class="status">Pre-publication review draft<br>Effective date pending owner approval</div></div></footer>
+</body></html>
